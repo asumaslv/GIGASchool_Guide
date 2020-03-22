@@ -1,0 +1,41 @@
+\documentclass[a4paper,10pt]{jsbook}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{color}
+\usepackage{amsmath,amsfonts}
+\usepackage{bm}
+\usepackage[dvipdfmx]{graphicx}
+\usepackage[stable]{footmisc}
+\usepackage{url}
+\usepackage{amssymb}
+\usepackage[dvipdfmx]{graphicx}
+\usepackage{caption}
+\usepackage{multirow}
+\usepackage{longtable}
+\usepackage{comment}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\setlength{\textwidth}{\fullwidth}  %本文の幅(textwidth)を全体の幅(=ヘッダ部の幅)にそろえる
+\setlength{\evensidemargin}{\oddsidemargin} %偶数ページの余白と奇数ページの余白をそろえる
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+\title{\large Microsoft GIGAスクールパッケージ\\ \LARGE Microsoft 365 と Windows デバイスの設計、構築ガイド}
+\date{\today}
+\author{日本マイクロソフト株式会社}
+\maketitle
+\newpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input Introduction.tex
+\newpage
+\tableofcontents
+\newpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input GIGA_license.tex
+\input Modern_management.tex
+\input O365A1_procedures.tex
+\input O365_setting-1.tex
+\input OOBE.tex
+\input Intune.tex
+%\input O365_setting-2.tex
+
+
+\end{document}
